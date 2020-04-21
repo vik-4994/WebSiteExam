@@ -1,0 +1,398 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+.header{
+    background: linear-gradient(to bottom, #FD6F9A, #C9AEF2);
+    width: 100%;
+    height: 100vh;
+}
+.header__menu{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+    
+}
+.header__logo{
+    font-size: 7em;
+    color: #fff;
+    text-align: center;
+    text-decoration: uppercase;
+    padding: 0 10% 0 10%;
+}
+.menu__items{
+    line-height: 75px;
+    height: 75px;
+    width: 25%;
+    text-align: center;
+    transition-duration: 2s;
+}
+
+.menu__items:hover{
+    line-height: 75px;
+    height: 75px;
+    width: 25%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    transition-duration: 1s;
+}
+.current{
+    border-bottom: 3px solid #F694FF;
+}
+.items__link{
+    line-height: 75%;
+    height: 75px;
+}
+.menu__item{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    color: #fff;
+    line-height: 75%;
+    height: 75px;
+    justify-content: space-around;
+}
+.menu__logo{
+    height: 75px;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    line-height: 75px;
+    width: 60%;
+}
+.header__autor{
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    text-decoration: uppercase;
+    padding: 15% 20% 0 20%;
+}
+
+.start__button{
+    font-size: 3s;
+    color: #000;
+    background: transparent;
+    border: 0.5px solid #000;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    transition-duration: 2s;
+}
+.start__button:hover{
+    font-size: 3s;
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.5px solid #000;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    transition-duration: 2s;
+}
+.img{
+    position: fixed;
+    transform: rotate(270deg);
+    top: 50vh;
+    right: 0;
+    width: 200px;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+}
+.content__top{
+    height: 60vh;
+    width: 100%;
+    padding-top: 10vh;
+}
+.content__bottom{
+    height: 30vh;
+    width: 100%;
+    background: #ff129d;
+    margin-top: 10vh;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 2vh;
+}
+.top__text{
+    width: 60%;
+    height: 15vh;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2vh;
+    opacity: 0.7;
+}
+.top__videos{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.videos__first{
+    margin: 0 auto;
+    width: 330px; 
+    height: 200px;
+}
+.videos__second{
+    margin: 0 auto;
+    width: 330px; 
+    height: 200px;
+}
+.videos__third{
+    margin: 0 auto;
+    width: 330px; 
+    height: 200px;
+}
+.bottom__block{
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.border__white{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.block__title{
+    width: 25%;
+    height: 100%;
+}
+.block__numbers{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.numb{
+    width: 33.33%;
+    height: 100%;
+}
+.title__h1{
+    font-size:3.5em;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 10vh;
+}
+.title__sub{
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    width: 100%;
+}
+.white{
+    color: white;
+}
+.first__h1{
+    font-size:3.5em;
+    text-align: center;
+    width: 100%;
+    margin-top: 10vh;
+}
+.first__sub{
+    font-size: 1em;
+    width: 100%;
+}
+.second__h1{
+    font-size:3.5em;
+    text-align: center;
+    width: 100%;
+    margin-top: 10vh;
+}
+.second__sub{
+    font-size: 1em;
+    width: 100%;
+}
+.third__h1{
+    font-size:3.5em;
+    text-align: center;
+    width: 100%;
+    margin-top: 10vh;
+}
+.third__sub{
+    font-size: 1em;
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+
+
+/*                                                                       */
+.main{
+    width: 100%;
+    height: 150vh;
+}
+
+
+/*                                                                        */
+.main__top{
+    height: 63vh;
+    width: 100%;
+    padding-top: 10vh;
+}
+.list__font-size{
+    font-size: 1.5em;
+}
+.list__first{
+    width: 25%;
+    margin: 0 auto;
+}
+.list__second{
+    width: 25%;
+    margin: 0 auto;
+}
+.list__third{
+    width: 25%;
+    margin: 0 auto;
+}
+.top__list{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 7vh;
+}
+.list__text{
+    line-height: 48px;
+    margin: 0 auto;
+}
+.img-logo{
+    margin: 0 auto;
+}
+.h1{
+    width: 70%;
+    margin: 0 auto;
+}
+p{
+    opacity: 0.5;
+    text-align: justify;
+    margin-top:3vh;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*                                                                          */
+.main__center{
+    width: 100%;
+    height: 90vh;
+    background: pink;
+    background-image: url(../images/Shevchenko.jpg);
+    background-size: cover;
+    margin-top: 15vh;
+    opacity: 0.7;
+    padding-top: 5vh;
+}
+.main__h1{
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 1em;
+    margin-top: 5vh;
+}
+.main__sub{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 1.5em;
+}
+.center__img{
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 69.9vh;
+}
+.img__ipad{
+    width: 400px;
+    height: 600px;
+    margin-left: 30%;
+    position: relative;
+}
+.img__iphone{
+    width: 200px;
+    height: 400px;
+    margin-top: 18vh;
+    position: relative;
+    right: 100px;
+}
+
+
+/*                                                                          */
+.main__bottom{
+    height: 30vh;
+    width: 100%;
+    background: #ff129d;
+}
+.bottom__container{
+    width: 60%;
+    margin: 0 auto;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+}
+.container__first{
+    width: 25%;
+    height: 30vh;
+}
+.first__icon{
+    position: relative;
+    left: 55%;
+    top: 38%;
+}
+.container__second{
+    width: 75%;
+    height: 30vh;
+}
+.second__text{
+    width:100%;
+    margin-top: 6vh; 
+    font-size: 1.3em;
+    color:white;
+}
+.second__quote{
+    margin-top: 3vh; 
+    display: flex;
+    flex-direction: row;
+}
+.quote__text{
+    margin-left:1vh;
+    font-size: 1.5em;
+}
+
+
+/*                                                                        */
+.footer{
+    width: 100%;
+    height: 90vh;
+}
+.footer__h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5vh;
+}
+.footer__info{
+    width: 600px;
+    height: 900px;
+    margin-left: 27.5%;
+    margin-top:5%;
+}
+.footer__author{
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 0.75em;
+    color: red;
+}
